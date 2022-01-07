@@ -1,0 +1,81 @@
+﻿<!DOCTYPE html>
+
+<html lang="pt-pt">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Calculadora</title>
+    <link href="../styles/E03_JS_Calculadora.css" rel="stylesheet" />
+    <script src="../scripts/E03_JS_Calculadora.js"></script>
+
+</head>
+
+<body onload="LoadForm();">
+
+    <header class="FormatHeader">
+        <p><h1>Calculadora Simples</h1></p>
+    </header>
+
+
+    <form id="formCalculadora">
+        <table id="tableCalculater">
+
+            <tr>
+                <td id="valor 1" class="FormatTd">Valor 1 </td>
+                <td>
+                    <input id="number1"
+                           type="text"
+                           onblur="ValidateValor1();">
+
+                </td>
+            </tr>
+
+            <tr>
+                <td id="valor2"class="FormatTd">Valor 2 </td>
+                <td>
+                    <input id="number2"
+                           type="text"
+                           onblur="ValidateValor2();">
+
+                </td>
+            </tr>
+            <tr>
+                <td class="FormatTd"> Operação</td>
+                <td>
+                    <input id="buttonSum"
+                           type="button"
+                           value="+"
+                           onclick="Sum();">
+                    <input id="buttonMinus"
+                           type="button"
+                           value="-"
+                           onclick="Minus();">
+                    <input id="buttonMultiply"
+                           type="button"
+                           value="x"
+                           onclick="Multiply();">
+                    <input id="buttonDivision"
+                           type="button"
+                           value="/"
+                           onclick="Divison();">
+
+                </td>
+            </tr>
+
+            <tr>
+                <td class="FormatTd">Resultado </td>
+                <td>
+                    <input id="resultado"
+                           type="text">
+
+                </td>
+            </tr>
+        </table>
+        
+    </form>
+
+    <img class="positionImage" src="../content/800px-Casio_calculator_JS-20WK_in_201901_002.jpg" width="200" heigt="150" />
+
+</body>
+
+</html>

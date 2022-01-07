@@ -1,0 +1,17 @@
+﻿.FormatHeader {
+    text-align: center;
+    color: darkred;
+}
+.positionImage {
+    position: absolute;
+    top: 70px;
+    left: 300px;
+}
+.FormatTd{
+    color:chocolate;
+}
+#space{
+    background-color:white;
+    border-block-color:none;
+
+}

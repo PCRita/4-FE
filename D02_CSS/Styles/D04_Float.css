@@ -1,0 +1,31 @@
+﻿/*Importar o reset*/
+@import'ResetSimpleCSS.css';
+
+#divContainer1, #divContainer2; {
+    width: 100%;
+    height: 10%;
+}
+#div1 {
+    width: 50%;
+    height: 100%;
+    background-color:antiquewhite;
+    float:left;
+}
+#div2 {
+    width: 20%;
+    height: 100%;
+    background-color: aquamarine;
+    float: left;
+}
+#div3 {
+    width: 30%;
+    height: 100%;
+    background-color: azure;
+    float: left;
+}
+#div4 {
+    width: 100%;
+    height: 100%;
+    background-color: gray;
+    float:none;
+}

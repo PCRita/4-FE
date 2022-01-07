@@ -1,0 +1,29 @@
+﻿td:first-child {
+    background-color: mediumspringgreen;
+}
+
+td:nth-child(2) {
+    background-color: coral;
+}
+
+td:nth-child(3) {
+    background-color: blue;
+}
+
+td:nth-child(4) {
+    background-color: deeppink;
+}
+
+td:nth-child(5) {
+    background-color: yellow;
+}
+td:nth-last-child(1) {
+    background-color: saddlebrown;
+}
+
+td:nth-last-child(2) {
+    background-color: yellow;
+}
+#tdFormatarFundoID {
+    background-color: hotpink;
+}
